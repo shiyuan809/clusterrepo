@@ -8,6 +8,6 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mail-user=yuansh@mit.edu
 
-module load julia/1.5.2
+module load julia/0.6.1
 
 julia myscript.jl
